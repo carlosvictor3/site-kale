@@ -1,0 +1,77 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #a0761b;
+    color: #fff;
+}
+
+.navbar-logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #f1c40f;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .navbar-links a {
+        font-size: 1.2rem;
+    }
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-link {
+    color: #fff;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.icon-link:hover {
+    color: #f1c40f;
+    /* Cor de destaque ao passar o mouse */
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /* Espaço entre a imagem e o texto */
+}
+
+.logo-image {
+    height: 40px;
+    /* Ajuste a altura conforme necessário */
+    width: auto;
+    /* Mantém a proporção */
+}
